@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		7B98D91C212E49C400680F4C /* dabao */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7B98D91D212E49C400680F4C /* Build configuration list for PBXAggregateTarget "dabao" */;
+			buildPhases = (
+				7B98D920212E49DF00680F4C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = dabao;
+			productName = dabao;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		7B98D8D7212E41E500680F4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98D8D6212E41E500680F4C /* AppDelegate.m */; };
 		7B98D8DA212E41E500680F4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98D8D9212E41E500680F4C /* ViewController.m */; };
@@ -13,7 +27,42 @@
 		7B98D8DF212E41E700680F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B98D8DE212E41E700680F4C /* Assets.xcassets */; };
 		7B98D8E2212E41E700680F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B98D8E0212E41E700680F4C /* LaunchScreen.storyboard */; };
 		7B98D8E5212E41E700680F4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98D8E4212E41E700680F4C /* main.m */; };
+		7B98D909212E438200680F4C /* FrameWorkOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B98D907212E438200680F4C /* FrameWorkOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B98D90C212E438200680F4C /* FrameWorkOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B98D905212E438200680F4C /* FrameWorkOne.framework */; };
+		7B98D90D212E438200680F4C /* FrameWorkOne.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B98D905212E438200680F4C /* FrameWorkOne.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B98D914212E43A900680F4C /* Constant.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B98D912212E43A900680F4C /* Constant.h */; };
+		7B98D915212E43A900680F4C /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98D913212E43A900680F4C /* Constant.m */; };
+		7B98D91A212E462E00680F4C /* CComon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B98D918212E462E00680F4C /* CComon.h */; };
+		7B98D91B212E462E00680F4C /* CComon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98D919212E462E00680F4C /* CComon.m */; };
+		7BE9609D2130F56900ED9ACE /* HomeTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9609C2130F56900ED9ACE /* HomeTableViewDataSource.m */; };
+		7BE960A62131214C00ED9ACE /* Description.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BE960A52131214C00ED9ACE /* Description.plist */; };
+		7BE960AA2131253C00ED9ACE /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE960A92131253C00ED9ACE /* Log.m */; };
+		7BE960AE2131330300ED9ACE /* FactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE960AD2131330300ED9ACE /* FactoryViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B98D90A212E438200680F4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B98D8CA212E41E500680F4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B98D904212E438200680F4C;
+			remoteInfo = FrameWorkOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B98D911212E438200680F4C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7B98D90D212E438200680F4C /* FrameWorkOne.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7B98D8D2212E41E500680F4C /* MyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +75,32 @@
 		7B98D8E1212E41E700680F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B98D8E3212E41E700680F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B98D8E4212E41E700680F4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B98D905212E438200680F4C /* FrameWorkOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameWorkOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B98D907212E438200680F4C /* FrameWorkOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameWorkOne.h; sourceTree = "<group>"; };
+		7B98D908212E438200680F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B98D912212E43A900680F4C /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		7B98D913212E43A900680F4C /* Constant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		7B98D918212E462E00680F4C /* CComon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CComon.h; sourceTree = "<group>"; };
+		7B98D919212E462E00680F4C /* CComon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CComon.m; sourceTree = "<group>"; };
+		7BE9609B2130F56900ED9ACE /* HomeTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewDataSource.h; sourceTree = "<group>"; };
+		7BE9609C2130F56900ED9ACE /* HomeTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewDataSource.m; sourceTree = "<group>"; };
+		7BE960A52131214C00ED9ACE /* Description.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Description.plist; sourceTree = "<group>"; };
+		7BE960A82131253C00ED9ACE /* Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		7BE960A92131253C00ED9ACE /* Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		7BE960AC2131330300ED9ACE /* FactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryViewController.h; sourceTree = "<group>"; };
+		7BE960AD2131330300ED9ACE /* FactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7B98D8CF212E41E500680F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B98D90C212E438200680F4C /* FrameWorkOne.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B98D901212E438200680F4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +113,9 @@
 		7B98D8C9212E41E500680F4C = {
 			isa = PBXGroup;
 			children = (
+				7B98D917212E45FB00680F4C /* Common */,
 				7B98D8D4212E41E500680F4C /* MyDemo */,
+				7B98D906212E438200680F4C /* FrameWorkOne */,
 				7B98D8D3212E41E500680F4C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				7B98D8D2212E41E500680F4C /* MyDemo.app */,
+				7B98D905212E438200680F4C /* FrameWorkOne.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +132,8 @@
 		7B98D8D4212E41E500680F4C /* MyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7BE960AB213130E400ED9ACE /* factory */,
+				7BE960A72131252600ED9ACE /* log */,
 				7B98D8D5212E41E500680F4C /* AppDelegate.h */,
 				7B98D8D6212E41E500680F4C /* AppDelegate.m */,
 				7B98D8D8212E41E500680F4C /* ViewController.h */,
@@ -67,11 +143,65 @@
 				7B98D8E0212E41E700680F4C /* LaunchScreen.storyboard */,
 				7B98D8E3212E41E700680F4C /* Info.plist */,
 				7B98D8E4212E41E700680F4C /* main.m */,
+				7BE9609B2130F56900ED9ACE /* HomeTableViewDataSource.h */,
+				7BE9609C2130F56900ED9ACE /* HomeTableViewDataSource.m */,
+				7BE960A52131214C00ED9ACE /* Description.plist */,
 			);
 			path = MyDemo;
 			sourceTree = "<group>";
 		};
+		7B98D906212E438200680F4C /* FrameWorkOne */ = {
+			isa = PBXGroup;
+			children = (
+				7B98D907212E438200680F4C /* FrameWorkOne.h */,
+				7B98D908212E438200680F4C /* Info.plist */,
+				7B98D912212E43A900680F4C /* Constant.h */,
+				7B98D913212E43A900680F4C /* Constant.m */,
+			);
+			path = FrameWorkOne;
+			sourceTree = "<group>";
+		};
+		7B98D917212E45FB00680F4C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7B98D918212E462E00680F4C /* CComon.h */,
+				7B98D919212E462E00680F4C /* CComon.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7BE960A72131252600ED9ACE /* log */ = {
+			isa = PBXGroup;
+			children = (
+				7BE960A82131253C00ED9ACE /* Log.h */,
+				7BE960A92131253C00ED9ACE /* Log.m */,
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+		7BE960AB213130E400ED9ACE /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				7BE960AC2131330300ED9ACE /* FactoryViewController.h */,
+				7BE960AD2131330300ED9ACE /* FactoryViewController.m */,
+			);
+			path = factory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7B98D902212E438200680F4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B98D914212E43A900680F4C /* Constant.h in Headers */,
+				7B98D909212E438200680F4C /* FrameWorkOne.h in Headers */,
+				7B98D91A212E462E00680F4C /* CComon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		7B98D8D1212E41E500680F4C /* MyDemo */ = {
@@ -81,15 +211,35 @@
 				7B98D8CE212E41E500680F4C /* Sources */,
 				7B98D8CF212E41E500680F4C /* Frameworks */,
 				7B98D8D0212E41E500680F4C /* Resources */,
+				7B98D911212E438200680F4C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7B98D90B212E438200680F4C /* PBXTargetDependency */,
 			);
 			name = MyDemo;
 			productName = MyDemo;
 			productReference = 7B98D8D2212E41E500680F4C /* MyDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7B98D904212E438200680F4C /* FrameWorkOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B98D90E212E438200680F4C /* Build configuration list for PBXNativeTarget "FrameWorkOne" */;
+			buildPhases = (
+				7B98D900212E438200680F4C /* Sources */,
+				7B98D901212E438200680F4C /* Frameworks */,
+				7B98D902212E438200680F4C /* Headers */,
+				7B98D903212E438200680F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrameWorkOne;
+			productName = FrameWorkOne;
+			productReference = 7B98D905212E438200680F4C /* FrameWorkOne.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +251,12 @@
 				ORGANIZATIONNAME = "王飞";
 				TargetAttributes = {
 					7B98D8D1212E41E500680F4C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7B98D904212E438200680F4C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7B98D91C212E49C400680F4C = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -119,6 +275,8 @@
 			projectRoot = "";
 			targets = (
 				7B98D8D1212E41E500680F4C /* MyDemo */,
+				7B98D904212E438200680F4C /* FrameWorkOne */,
+				7B98D91C212E49C400680F4C /* dabao */,
 			);
 		};
 /* End PBXProject section */
@@ -131,10 +289,34 @@
 				7B98D8E2212E41E700680F4C /* LaunchScreen.storyboard in Resources */,
 				7B98D8DF212E41E700680F4C /* Assets.xcassets in Resources */,
 				7B98D8DD212E41E500680F4C /* Main.storyboard in Resources */,
+				7BE960A62131214C00ED9ACE /* Description.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B98D903212E438200680F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B98D920212E49DF00680F4C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=\"WorkOne\"\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B98D8CE212E41E500680F4C /* Sources */ = {
@@ -142,12 +324,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B98D8DA212E41E500680F4C /* ViewController.m in Sources */,
+				7BE960AE2131330300ED9ACE /* FactoryViewController.m in Sources */,
+				7BE960AA2131253C00ED9ACE /* Log.m in Sources */,
 				7B98D8E5212E41E700680F4C /* main.m in Sources */,
 				7B98D8D7212E41E500680F4C /* AppDelegate.m in Sources */,
+				7BE9609D2130F56900ED9ACE /* HomeTableViewDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B98D900212E438200680F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B98D91B212E462E00680F4C /* CComon.m in Sources */,
+				7B98D915212E43A900680F4C /* Constant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B98D90B212E438200680F4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B98D904212E438200680F4C /* FrameWorkOne */;
+			targetProxy = 7B98D90A212E438200680F4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7B98D8DB212E41E500680F4C /* Main.storyboard */ = {
@@ -311,6 +513,76 @@
 			};
 			name = Release;
 		};
+		7B98D90F212E438200680F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FrameWorkOne/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimama.FrameWorkOne;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B98D910212E438200680F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FrameWorkOne/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alimama.FrameWorkOne;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B98D91E212E49C400680F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B98D91F212E49C400680F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -328,6 +600,24 @@
 			buildConfigurations = (
 				7B98D8E9212E41E700680F4C /* Debug */,
 				7B98D8EA212E41E700680F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B98D90E212E438200680F4C /* Build configuration list for PBXNativeTarget "FrameWorkOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B98D90F212E438200680F4C /* Debug */,
+				7B98D910212E438200680F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B98D91D212E49C400680F4C /* Build configuration list for PBXAggregateTarget "dabao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B98D91E212E49C400680F4C /* Debug */,
+				7B98D91F212E49C400680F4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

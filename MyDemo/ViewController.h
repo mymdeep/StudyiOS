@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "HomeTableViewDataSource.h"
 @interface ViewController : UIViewController
-
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) HomeTableViewDataSource *h;
 
 @end
 
