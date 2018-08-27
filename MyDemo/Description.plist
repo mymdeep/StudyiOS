@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>工程模式</key>
+	<key>工程模式|FactoryViewController</key>
 	<string>介绍工厂模式的使用</string>
 	<key>333</key>
 	<string>4444</string>

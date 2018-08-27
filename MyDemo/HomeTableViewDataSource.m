@@ -9,7 +9,7 @@
 #import "HomeTableViewDataSource.h"
 #import <UIKit/UIKit.h>
 #import "Log.h"
-#import "FactoryViewController.h"
+#import "ViewController.h"
 //@interface HomeTableViewDataSource ()<
 //UITableViewDataSource,
 //UITableViewDelegate>
@@ -79,8 +79,15 @@
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     NSString *selectCellStr = cell.textLabel.text;
     [Log mulMessage:@"click ",selectCellStr, nil];
-    FactoryViewController *f = [[FactoryViewController alloc]init];
-    [self jumpTo:f];
+    NSArray* array = [selectCellStr componentsSeparatedByString:@"|"];
+    if([array count]>1){
+        Class class = NSClassFromString(array[1]);
+        ViewController *vc = [[class alloc] init];
+        [self jumpTo:vc];
+       
+    }
+   
+   
    
 }
     // 即将显示tableviewcell时调用
@@ -113,7 +120,8 @@
     
 }
 -(void)jumpTo:(UIViewController*) view{
-    [self.controller presentViewController:view animated:false completion:nil];
+    view.view.backgroundColor = [UIColor grayColor];
+    [self.controller.navigationController pushViewController:view animated:true];
 }
 @end
 

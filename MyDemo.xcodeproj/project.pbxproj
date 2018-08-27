@@ -21,6 +21,16 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		7B481D1D213422AD00A1794F /* EasyFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D1C213422AD00A1794F /* EasyFactory.m */; };
+		7B481D202134232300A1794F /* PhoneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D1F2134232300A1794F /* PhoneModel.m */; };
+		7B481D232134240400A1794F /* Phone8.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D222134240400A1794F /* Phone8.m */; };
+		7B481D262134246400A1794F /* PhoneX.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D252134246400A1794F /* PhoneX.m */; };
+		7B481D292134249C00A1794F /* Phone20.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D282134249C00A1794F /* Phone20.m */; };
+		7B481D2C213424C400A1794F /* Phone9.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D2B213424C400A1794F /* Phone9.m */; };
+		7B481D2F2134272400A1794F /* AFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D2E2134272300A1794F /* AFactory.m */; };
+		7B481D32213427AB00A1794F /* IPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D31213427AB00A1794F /* IPhoneFactory.m */; };
+		7B481D352134283B00A1794F /* HuaWeiFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D342134283B00A1794F /* HuaWeiFactory.m */; };
+		7B481D382134293B00A1794F /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D372134293B00A1794F /* AbstractFactory.m */; };
 		7B98D8D7212E41E500680F4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98D8D6212E41E500680F4C /* AppDelegate.m */; };
 		7B98D8DA212E41E500680F4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98D8D9212E41E500680F4C /* ViewController.m */; };
 		7B98D8DD212E41E500680F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B98D8DB212E41E500680F4C /* Main.storyboard */; };
@@ -65,6 +75,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B481D182134222000A1794F /* PhoneType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneType.h; sourceTree = "<group>"; };
+		7B481D1B213422AD00A1794F /* EasyFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyFactory.h; sourceTree = "<group>"; };
+		7B481D1C213422AD00A1794F /* EasyFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyFactory.m; sourceTree = "<group>"; };
+		7B481D1E2134232300A1794F /* PhoneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneModel.h; sourceTree = "<group>"; };
+		7B481D1F2134232300A1794F /* PhoneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneModel.m; sourceTree = "<group>"; };
+		7B481D212134240400A1794F /* Phone8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phone8.h; sourceTree = "<group>"; };
+		7B481D222134240400A1794F /* Phone8.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phone8.m; sourceTree = "<group>"; };
+		7B481D242134246400A1794F /* PhoneX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneX.h; sourceTree = "<group>"; };
+		7B481D252134246400A1794F /* PhoneX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneX.m; sourceTree = "<group>"; };
+		7B481D272134249C00A1794F /* Phone20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phone20.h; sourceTree = "<group>"; };
+		7B481D282134249C00A1794F /* Phone20.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phone20.m; sourceTree = "<group>"; };
+		7B481D2A213424C400A1794F /* Phone9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phone9.h; sourceTree = "<group>"; };
+		7B481D2B213424C400A1794F /* Phone9.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phone9.m; sourceTree = "<group>"; };
+		7B481D2D2134272300A1794F /* AFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFactory.h; sourceTree = "<group>"; };
+		7B481D2E2134272300A1794F /* AFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFactory.m; sourceTree = "<group>"; };
+		7B481D30213427AB00A1794F /* IPhoneFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPhoneFactory.h; sourceTree = "<group>"; };
+		7B481D31213427AB00A1794F /* IPhoneFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneFactory.m; sourceTree = "<group>"; };
+		7B481D332134283B00A1794F /* HuaWeiFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuaWeiFactory.h; sourceTree = "<group>"; };
+		7B481D342134283B00A1794F /* HuaWeiFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaWeiFactory.m; sourceTree = "<group>"; };
+		7B481D362134293B00A1794F /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		7B481D372134293B00A1794F /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
 		7B98D8D2212E41E500680F4C /* MyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B98D8D5212E41E500680F4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B98D8D6212E41E500680F4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -184,6 +215,27 @@
 			children = (
 				7BE960AC2131330300ED9ACE /* FactoryViewController.h */,
 				7BE960AD2131330300ED9ACE /* FactoryViewController.m */,
+				7B481D182134222000A1794F /* PhoneType.h */,
+				7B481D1B213422AD00A1794F /* EasyFactory.h */,
+				7B481D1C213422AD00A1794F /* EasyFactory.m */,
+				7B481D1E2134232300A1794F /* PhoneModel.h */,
+				7B481D1F2134232300A1794F /* PhoneModel.m */,
+				7B481D212134240400A1794F /* Phone8.h */,
+				7B481D222134240400A1794F /* Phone8.m */,
+				7B481D242134246400A1794F /* PhoneX.h */,
+				7B481D252134246400A1794F /* PhoneX.m */,
+				7B481D272134249C00A1794F /* Phone20.h */,
+				7B481D282134249C00A1794F /* Phone20.m */,
+				7B481D2A213424C400A1794F /* Phone9.h */,
+				7B481D2B213424C400A1794F /* Phone9.m */,
+				7B481D2D2134272300A1794F /* AFactory.h */,
+				7B481D2E2134272300A1794F /* AFactory.m */,
+				7B481D30213427AB00A1794F /* IPhoneFactory.h */,
+				7B481D31213427AB00A1794F /* IPhoneFactory.m */,
+				7B481D332134283B00A1794F /* HuaWeiFactory.h */,
+				7B481D342134283B00A1794F /* HuaWeiFactory.m */,
+				7B481D362134293B00A1794F /* AbstractFactory.h */,
+				7B481D372134293B00A1794F /* AbstractFactory.m */,
 			);
 			path = factory;
 			sourceTree = "<group>";
@@ -324,10 +376,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B98D8DA212E41E500680F4C /* ViewController.m in Sources */,
+				7B481D262134246400A1794F /* PhoneX.m in Sources */,
 				7BE960AE2131330300ED9ACE /* FactoryViewController.m in Sources */,
+				7B481D232134240400A1794F /* Phone8.m in Sources */,
+				7B481D202134232300A1794F /* PhoneModel.m in Sources */,
+				7B481D292134249C00A1794F /* Phone20.m in Sources */,
+				7B481D1D213422AD00A1794F /* EasyFactory.m in Sources */,
+				7B481D32213427AB00A1794F /* IPhoneFactory.m in Sources */,
+				7B481D382134293B00A1794F /* AbstractFactory.m in Sources */,
 				7BE960AA2131253C00ED9ACE /* Log.m in Sources */,
+				7B481D2F2134272400A1794F /* AFactory.m in Sources */,
 				7B98D8E5212E41E700680F4C /* main.m in Sources */,
 				7B98D8D7212E41E500680F4C /* AppDelegate.m in Sources */,
+				7B481D352134283B00A1794F /* HuaWeiFactory.m in Sources */,
+				7B481D2C213424C400A1794F /* Phone9.m in Sources */,
 				7BE9609D2130F56900ED9ACE /* HomeTableViewDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
