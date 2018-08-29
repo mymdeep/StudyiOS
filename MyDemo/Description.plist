@@ -4,9 +4,11 @@
 <dict>
 	<key>工程模式|FactoryViewController</key>
 	<string>介绍工厂模式的使用</string>
-	<key>333</key>
-	<string>4444</string>
-	<key>111</key>
-	<string>2222</string>
+	<key>线程|ThreadViewController</key>
+	<string>介绍开启线程的方法</string>
+	<key>iOS宏定义写法</key>
+	<string></string>
+	<key>依赖注入</key>
+	<string></string>
 </dict>
 </plist>

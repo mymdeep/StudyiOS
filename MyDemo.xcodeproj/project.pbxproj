@@ -31,6 +31,7 @@
 		7B481D32213427AB00A1794F /* IPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D31213427AB00A1794F /* IPhoneFactory.m */; };
 		7B481D352134283B00A1794F /* HuaWeiFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D342134283B00A1794F /* HuaWeiFactory.m */; };
 		7B481D382134293B00A1794F /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D372134293B00A1794F /* AbstractFactory.m */; };
+		7B481D422135767B00A1794F /* ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B481D412135767B00A1794F /* ThreadViewController.m */; };
 		7B98D8D7212E41E500680F4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98D8D6212E41E500680F4C /* AppDelegate.m */; };
 		7B98D8DA212E41E500680F4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98D8D9212E41E500680F4C /* ViewController.m */; };
 		7B98D8DD212E41E500680F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B98D8DB212E41E500680F4C /* Main.storyboard */; };
@@ -96,6 +97,8 @@
 		7B481D342134283B00A1794F /* HuaWeiFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaWeiFactory.m; sourceTree = "<group>"; };
 		7B481D362134293B00A1794F /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
 		7B481D372134293B00A1794F /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		7B481D402135767B00A1794F /* ThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadViewController.h; sourceTree = "<group>"; };
+		7B481D412135767B00A1794F /* ThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadViewController.m; sourceTree = "<group>"; };
 		7B98D8D2212E41E500680F4C /* MyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B98D8D5212E41E500680F4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B98D8D6212E41E500680F4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +144,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B481D3F2135765500A1794F /* thread */ = {
+			isa = PBXGroup;
+			children = (
+				7B481D402135767B00A1794F /* ThreadViewController.h */,
+				7B481D412135767B00A1794F /* ThreadViewController.m */,
+			);
+			path = thread;
+			sourceTree = "<group>";
+		};
 		7B98D8C9212E41E500680F4C = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +175,7 @@
 		7B98D8D4212E41E500680F4C /* MyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7B481D3F2135765500A1794F /* thread */,
 				7BE960AB213130E400ED9ACE /* factory */,
 				7BE960A72131252600ED9ACE /* log */,
 				7B98D8D5212E41E500680F4C /* AppDelegate.h */,
@@ -388,6 +401,7 @@
 				7B481D2F2134272400A1794F /* AFactory.m in Sources */,
 				7B98D8E5212E41E700680F4C /* main.m in Sources */,
 				7B98D8D7212E41E500680F4C /* AppDelegate.m in Sources */,
+				7B481D422135767B00A1794F /* ThreadViewController.m in Sources */,
 				7B481D352134283B00A1794F /* HuaWeiFactory.m in Sources */,
 				7B481D2C213424C400A1794F /* Phone9.m in Sources */,
 				7BE9609D2130F56900ED9ACE /* HomeTableViewDataSource.m in Sources */,
